@@ -7,7 +7,8 @@
             Console.WriteLine("SECTION A - Academic Term Identification");
 
             int currentMonth = DateTime.Now.Month;
-
+            // if else if else is used to check which statement is true
+            // passes from top to bottom to check which is a true statement, if first statement true the rest will not execute and be skipped
             if (currentMonth >= 1 && currentMonth <= 5)
             { 
                 Console.WriteLine(currentMonth + " " + "Spring Term");
@@ -21,7 +22,11 @@
                 Console.WriteLine(currentMonth + " " + "Fall Term");
             }
 
-                Console.WriteLine("SECTION B - Campus Access Check");
+            Console.WriteLine("\n                          ");
+
+            Console.WriteLine("SECTION B - Campus Access Check");
+
+            Console.WriteLine("\n                           ");
 
             Console.WriteLine("SECTION C - Semester Code Loopup");
         }
