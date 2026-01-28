@@ -40,6 +40,17 @@ namespace COMP003A.LectureActivity3
 
             Console.WriteLine("Are you currently enrolled? (yes/no)");
 
+            Console.ReadLine();
+
+            if (age >= 18)
+            {
+                Console.WriteLine("Campus access granted");
+                if (hasStudentId)
+                {
+                    Console.WriteLine("Campus acces granted");
+                }
+            }
+
             Console.WriteLine("\n                           ");
 
             Console.WriteLine("SECTION C - Semester Code Loopup");
