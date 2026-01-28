@@ -39,7 +39,8 @@ namespace COMP003A.LectureActivity3
             string idInput = Console.ReadLine();
 
             bool hasStudentId = idInput.ToLower() == "yes";
-
+            // checks to see if first statement is true, followed by second if statement
+            // if first statement is not true, will deny access
             if (age >= 18)
             {
                 Console.WriteLine("Campus access granted");
