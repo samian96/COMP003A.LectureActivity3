@@ -29,18 +29,18 @@ namespace COMP003A.LectureActivity3
             Console.WriteLine("SECTION B - Campus Access Check");
 
             Console.WriteLine("\n                          ");
-
+          
             int age;
 
             bool hasStudentId;
 
             Console.WriteLine("Please enter your age");
 
-            Console.ReadLine();
+            string ageInput = Console.ReadLine();
 
             Console.WriteLine("Are you currently enrolled? (yes/no)");
 
-            Console.ReadLine();
+            string idInput = Console.ReadLine();
 
             if (age >= 18)
             {
@@ -49,9 +49,18 @@ namespace COMP003A.LectureActivity3
                 {
                     Console.WriteLine("Campus acces granted");
                 }
+                else
+                {
+                    Console.WriteLine("Campus acces denied");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Campus access denied");
             }
 
-            Console.WriteLine("\n                           ");
+
+                Console.WriteLine("\n                           ");
 
             Console.WriteLine("SECTION C - Semester Code Loopup");
         }
