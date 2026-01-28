@@ -67,10 +67,21 @@ namespace COMP003A.LectureActivity3
             Console.WriteLine("Please enter semester code(SP, SU, FA)");
 
             string semesterCode = Console.ReadLine();
-
+            //
             switch (semesterCode)
             {
-
+                case "SP":
+                    Console.WriteLine("Spring");
+                    break;
+                case "SU":
+                    Console.WriteLine("Summer");
+                    break;
+                case "FA":
+                    Console.WriteLine("Fall");
+                    break;
+                default:
+                    Console.WriteLine("invalid input");
+                    break;
             }
             }
         }
