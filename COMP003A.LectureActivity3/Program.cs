@@ -30,9 +30,7 @@ namespace COMP003A.LectureActivity3
 
             Console.WriteLine("\n                          ");
           
-            int age;
-
-            bool hasStudentId;
+            int age =18;
 
             Console.WriteLine("Please enter your age");
 
@@ -42,12 +40,14 @@ namespace COMP003A.LectureActivity3
 
             string idInput = Console.ReadLine();
 
+            bool hasStudentId = idInput.ToLower() == "yes";
+
             if (age >= 18)
             {
                 Console.WriteLine("Campus access granted");
-                if (hasStudentId)
+                if (hasStudentId = yes)
                 {
-                    Console.WriteLine("Campus acces granted");
+                    Console.WriteLine("Campus access granted");
                 }
                 else
                 {
