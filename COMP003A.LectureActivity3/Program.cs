@@ -83,7 +83,6 @@ namespace COMP003A.LectureActivity3
                     Console.WriteLine("invalid input");
                     break;
             }
-            }
         }
     }
 }
