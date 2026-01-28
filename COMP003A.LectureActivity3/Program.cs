@@ -58,10 +58,15 @@ namespace COMP003A.LectureActivity3
                 Console.WriteLine("Campus access denied");
             }
 
-
-                Console.WriteLine("\n                           ");
+            Console.WriteLine("\n                           ");
 
             Console.WriteLine("SECTION C - Semester Code Loopup");
+
+            Console.WriteLine("\n                             ");
+
+            Console.WriteLine("Please enter semester code(SP, SU, Fa)");
+
+
         }
     }
 }
