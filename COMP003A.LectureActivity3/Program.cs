@@ -26,6 +26,12 @@
 
             Console.WriteLine("SECTION B - Campus Access Check");
 
+            Console.WriteLine("\n                          ");
+
+            Console.WriteLine("Please enter your age");
+
+            Console.ReadLine();
+
             Console.WriteLine("\n                           ");
 
             Console.WriteLine("SECTION C - Semester Code Loopup");
