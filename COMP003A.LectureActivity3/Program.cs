@@ -10,11 +10,15 @@
 
             if (currentMonth >= 1 && currentMonth <= 5)
             { 
-                Console.WriteLine("Spring Term");
+                Console.WriteLine(currentMonth + " " + "Spring Term");
             }
             else if (currentMonth >=6 && currentMonth <=7)
             {
-                Console.WriteLine("Summer Term");
+                Console.WriteLine(currentMonth + " " + "Summer Term");
+            }
+            else
+            {
+                Console.WriteLine(currentMonth + " " + "Fall Term");
             }
 
                 Console.WriteLine("SECTION B - Campus Access Check");
