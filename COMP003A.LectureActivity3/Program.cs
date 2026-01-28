@@ -1,4 +1,6 @@
-﻿namespace COMP003A.LectureActivity3
+﻿using System.Net.Cache;
+
+namespace COMP003A.LectureActivity3
 {
     internal class Program
     {
@@ -28,9 +30,15 @@
 
             Console.WriteLine("\n                          ");
 
+            int age;
+
+            bool hasStudentId;
+
             Console.WriteLine("Please enter your age");
 
             Console.ReadLine();
+
+            Console.WriteLine("Are you currently enrolled? (yes/no)");
 
             Console.WriteLine("\n                           ");
 
